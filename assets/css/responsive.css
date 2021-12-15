@@ -222,6 +222,15 @@
   
         margin-bottom: 16px;
     }
+    .contact-page-sidebar {
+        margin-bottom: 50px;
+        position: relative;
+        z-index: 999;
+        margin-top: -28px;
+    }
+    .sidebar {
+        margin-top: 32px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

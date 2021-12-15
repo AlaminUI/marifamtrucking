@@ -598,3 +598,91 @@ li.last-child:before {content: "/";}
 .small-banner-content ul li a:hover {
   color: #f27f1b;
 }
+.contact-form {
+  position: relative;
+  margin-top: -30px;
+}
+
+.contact-form:after {
+  content: "";
+  width: 100%;
+  height: 50px;
+  background: white;
+  bottom: 0;
+  position: absolute;
+}
+
+.contact-page-sidebar {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 25%) !important;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.contact-page-sidebar h4 {
+  margin-bottom: 24px;
+}
+
+.single-info p {
+  margin: 0;
+  word-break: break-all;
+}
+
+.single-info {
+  margin-bottom: 16px;
+}
+
+.single-info h6 {
+  margin-bottom: 4px;
+  
+}
+
+.single-info ul li {
+  margin-bottom: 6px;
+}
+.single-page-content ul {
+  list-style: disc;
+  margin-bottom: 24px;
+}
+
+.single-page-content ul li {
+  list-style: disc;
+  list-style-position: inside;
+  margin-bottom: 8px;
+}
+
+.single-page-content h5 {
+  margin-bottom: 16px;
+}
+
+.single-page-content h2 {
+  margin-bottom: 16px;
+}
+.sidebar {
+  padding: 32px 24px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 25%) !important;
+  border-radius: 4px;
+}
+
+.sidebar ul li a {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  font-size: 17px;
+}
+
+.sidebar ul li a i {
+  margin-right: 4px;
+  font-size: 22px;
+}
+
+.sidebar h5 {
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.sidebar ul li a:hover {
+  color: #003e9c;
+}
