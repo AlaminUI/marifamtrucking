@@ -9,7 +9,4 @@ document.addEventListener("scroll", function () {
     
     }
     })
-    $('.count').counterUp({
-      delay: 10,
-      time: 2000
-    });
+  

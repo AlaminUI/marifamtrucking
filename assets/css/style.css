@@ -436,8 +436,9 @@ section.cta-area {
   position: relative;
   background: url(../img/cta.jpg);
   background-size: cover;
-  padding: 72px 0px;
+  padding: 56px 0px;
   margin:72px 0px;
+  margin-bottom: 0px;
 }
 
 .cta-inner {

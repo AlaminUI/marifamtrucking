@@ -208,6 +208,7 @@
     section.cta-area {
         padding: 50px 0px;
         margin: 50px 0px;
+        margin-bottom: 0;
     }
     section.small-banner-area {
         height: 300px;
