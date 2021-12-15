@@ -1,0 +1,233 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width:1200px){ 
+    h1 {
+        font-size: 40px;
+    }
+    
+    .banner-content-wrap h5 {
+        font-size: 17px;
+    }
+    
+    .service-card h5 {
+        font-size: 18px;
+    }
+    
+    .service-card {
+        min-height: 230px;
+        padding: 56px 8px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px){ 
+ 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 34px;
+    }
+    
+    .banner-content-wrap h5 {
+        font-size: 16px;
+        max-width: 400px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    a.btn-outline {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+    
+    .about-us-img img {
+        object-fit: cover;
+    }
+    
+    .why-choose-img img {
+        object-fit: cover;
+    }
+    
+    .our-achievement-items {
+        padding: 24px;
+    }
+    
+    .single-achievement img {
+        max-width: 64px;
+    }
+    
+    .single-achievement span.count {
+        font-size: 40px;
+    }
+    
+    .our-success-description p:last-child {
+        margin-bottom: 0;
+    }
+    .company-logo {
+        max-width: 664px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    button.navbar-toggler i {
+        font-size: 32px;
+        color: #0f4aa1;
+    }
+    
+    li.nav-item {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    
+    .navbar-nav .nav-link:hover:after {
+        border: 0px;
+    }
+    .dropdown-menu {
+        border: 0px;
+        text-align: center;
+    }
+    section.banner-area {
+        height: 100vh;
+    }
+    
+    video#myVideo {
+        height: 100vh;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .banner-content-wrap h5 {
+        font-size: 16px;
+        max-width: 400px;
+    }
+    
+    .banner-btns {
+        flex-direction: column;
+        margin-top: 32px;
+        display: inline-flex;
+    }
+    
+    .banner-btns a {
+        margin: 12px 0px;
+        display: inline-block;
+    }
+    
+    .banner-content-wrap {
+        margin-top: 24%;
+    }
+    
+    .service-card {
+        max-width: 360px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    
+    .col-md-4:last-child .service-card {
+        margin-bottom: 0;
+    }
+    
+    .about-us-img {
+        margin-top: 32px;
+    }
+    section.our-success:before {
+        background: #e6edf6;
+        width: 100%;
+        height: 60%;
+    }
+    
+    section.our-success:after {
+        background: #023f9b;
+        width: 100%;
+    }
+    
+    .our-achievement-items {
+        padding: 24px 16px;
+    }
+    
+    section.our-success {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+    .single-achievement img {
+        max-width: 56px;
+    }
+    
+    .single-achievement span.count {
+        font-size: 38px;
+    }
+    
+    .single-achievement h6 {
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .company-logo {
+        max-width: 100%;
+    }
+    
+    .footer-link {
+        margin-bottom: 24px;
+    }
+    .section-padding {
+        padding: 50px 0px;
+    }
+    .section-pb {
+        padding-bottom: 50px;
+    }
+    .section-pt {
+        padding-top: 50px;
+    }
+    div#navbarNav {
+        padding-top: 16px;
+    }
+    
+    a.navbar-brand img {
+        max-width: 72px;
+    }
+    .section-title p {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    section.cta-area {
+        padding: 50px 0px;
+        margin: 50px 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 400.98px) { 
+    .single-achievement img {
+        max-width: 48px;
+    }
+    
+    .single-achievement span.count {
+        font-size: 32px;
+    }
+    
+    .single-achievement {
+        max-width: 85px;
+    }
+ 
+    
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+ 
+}
