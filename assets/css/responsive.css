@@ -209,6 +209,19 @@
         padding: 50px 0px;
         margin: 50px 0px;
     }
+    section.small-banner-area {
+        height: 300px;
+    }
+    .small-banner-content {
+        margin-top: 84px;
+    }
+    .section-mt {
+        margin-top: 50px;
+    }
+    p {
+  
+        margin-bottom: 16px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

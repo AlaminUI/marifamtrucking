@@ -54,6 +54,7 @@ h1 {
 
 h2 {
   font-size: 38px;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -83,6 +84,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
+  color:rgb(242, 127, 27);
 }
 
 a.navbar-brand img {
@@ -103,7 +105,7 @@ header.no-bg {
     position: absolute;
     background: transparent;
     top: 24px;
-  
+    box-shadow: none;
 }
 #myVideo {
   min-width: 100%;
@@ -161,6 +163,7 @@ section.banner-area::after {
   z-index: 1;
   transition: 0.5s;
   -webkit-transition: 0.5s;
+  text-transform: uppercase;
 }
 
 .banner-btns {
@@ -313,7 +316,7 @@ span.small-title {
 .service-card h5 {
   margin-bottom: 24px;
   color:#fff;
-  font-size:18px;
+  font-size: 25px;
   text-transform: uppercase;
   position: relative;
   z-index: 2;
@@ -535,4 +538,63 @@ footer {
 .dropdown:hover>.dropdown-menu{
   display: block;
   top: 20px;
+}
+.section-mt{
+  margin-top:72px;
+}
+
+/* about us  */
+section.small-banner-area {
+  height: 360px;
+  background: url(../img/small-banner.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-banner-content {
+  margin-top: 110px;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  color: #fff;
+}
+
+.small-banner-content ul {
+  display: flex;
+  justify-content: center;
+}
+section.small-banner-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  content: "";
+  z-index: 0;
+}
+
+.small-banner-content ul li a {
+  font-size: 15px;
+  color: #fff;
+}
+
+.small-banner-content ul li {
+  font-size: 15px;
+  color: #fff;
+  margin: 4px;
+}
+
+li.last-child {
+  position: relative;
+  color: #ddd !important;
+}
+
+li.last-child:before {content: "/";}
+
+.small-banner-content ul li a:hover {
+  color: #f27f1b;
 }
