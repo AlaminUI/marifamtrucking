@@ -240,6 +240,14 @@
     .sidebar {
         margin-top: 32px;
     }
+    li.first-child {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px !important;
+    }
+    .small-banner-content ul{
+        flex-wrap: wrap;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
